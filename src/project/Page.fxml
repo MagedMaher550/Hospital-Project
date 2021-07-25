@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="504.0" prefWidth="668.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <ImageView fitHeight="548.0" fitWidth="513.0" layoutX="78.0" layoutY="-51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Logo.png" />
+         </image>
+      </ImageView>
+      <Text fill="#29abe2" layoutX="156.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" text="مستشفي كله رايح التخصصي" wrappingWidth="393.12109375">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <!--<Light.Distant/>-->
+               </light>
+            </Lighting>
+         </effect>
+      </Text>
+   </children>
+</AnchorPane>

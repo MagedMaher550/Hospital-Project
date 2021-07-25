@@ -1,0 +1,20 @@
+.button {
+    -fx-background-color: #29ABE2;
+    -fx-alignment: center;
+    -fx-text-fill: white;
+}
+.button:hover{
+    -fx-text-fill: #29ABE2;
+    -fx-background-color: white;
+}
+.round-box{
+    -fx-background-radius: 100% ;
+        
+    -fx-border-radius: 100% ;
+    -fx-border-width: 3px ;
+}
+.label{
+    -fx-background-radius: 100% ;   
+    -fx-border-radius: 100% ;
+    -fx-border-width: 3px ;
+}
